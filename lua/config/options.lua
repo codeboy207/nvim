@@ -12,3 +12,7 @@ opt.softtabstop = 4;
 -- use number of spaces to insert a <Tab>
 
 opt.expandtab = true;
+
+opt.history = 100;
+opt.backup = false;
+opt.wildmenu = true;
