@@ -18,12 +18,12 @@ vim.opt.rtp:prepend(lazypath)
 -- load plugins
 
 local plugins = {
-    { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+    {"catppuccin/nvim", name = "catppuccin", priority = 1000 },
     {
-        'nvim-lualine/lualine.nvim',
-        dependencies = { 'nvim-tree/nvim-web-devicons' }
+     "nvim-lualine/lualine.nvim",
+      dependencies = { 'nvim-tree/nvim-web-devicons' }
     },
-};
-
+    {"nvim-treesitter/nvim-treesitter"},
+}
 local opts = {};
 require("lazy").setup(plugins, opts);

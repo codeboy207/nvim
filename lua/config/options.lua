@@ -16,3 +16,7 @@ opt.expandtab = true;
 opt.history = 100;
 opt.backup = false;
 opt.wildmenu = true;
+
+-- syntax
+
+opt.syntax = on;

@@ -5,4 +5,4 @@ function setTheme(theme)
     vim.cmd.colorscheme(theme);
 end
 
-setTheme("default")
+setTheme("catppuccin-mocha")
